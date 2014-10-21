@@ -22,32 +22,98 @@
     <![endif]-->
 
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">helpstats</h3>
+    <div class="container-fluid">
+
+      <h3>Guida alla lettura della sezione Comunità di Ariel</h3>
+
+
+      <div class="panel panel-default">
+        <div class="panel-body">      <p>Questa sezione consente di avere una panoramica su:</p>
+      <ul>
+        <li>dati di accesso al sito da parte degli utenti;</li>
+        <li>dati sull’uso degli strumenti di pubblicazione;</li>
+        <li>dati sul download. </li>
+      </ul>
+
+      <p>
+        In ognuna delle pagine qui presenti è possibile limitare il periodo di riferimento e la tipologia di gruppo utenti  tramite lo strumento “filtro dati di accesso”.<br/>
+        Agendo sulle voci di sottomenù cliccabili è possibile selezionare il criterio in base al quale ordinare la tabella dei dati presenti nella pagina. Accanto alla voce selezionata compare l’icona "<span class="glyphicon glyphicon-arrow-down"></span>"
+      </p>
+        </div>
       </div>
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+          <h4>Accessi al sito</h4>
+          <p>Per ogni utente vengono forniti alcuni dati relativi agli accessi:</p>
+          <ul>
+            <li><strong>Numero accessi</strong> indica quante volte quell’utente è entrato nel sito;</li>
+            <li><strong>Ultimo accesso</strong> indica data ed ora dell’ultimo ingresso nel sito di quell’utente;</li>
+            <li><strong>Tempo permanenza totale</strong> indica per quanto tempo quell’utente è rimasto nel sito, sommando i tempi di tutte le diverse sessioni dal primo accesso all’ultimo;</li>
+            <li><strong>Online (Attivo)</strong> indica che quell’utente è collegato al sito in quel momento;</li>
+            <li><strong>Online (senza alcuna specifica)</strong> indica che quell’utente al momento non è collegato al sito;</li>
+            <li><strong>Elenco accessi</strong> offre il dettaglio degli accessi di quell’utente sessione per sessione, mostrando data e ora di ingresso nel sito, tempo di permanenza dentro al sito e da dove è avvenuto il collegamento (rete unimi o rete esterna ad unimi).</li>
+          </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+          <h4>Accessi personali</h4>
+          <p>Offre il dettaglio dei propri accessi al sito sessione per sessione, mostrando data e ora di ingresso nel sito, tempo di permanenza dentro al sito e da dove è avvenuto il collegamento (rete unimi o rete esterna ad unimi).</p>
+        </div>
+            </div>
+          </div>
       </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+          <h4>Utilizzo strumenti di pubblicazione</h4>
+          <p>Per ogni utente vengono forniti alcuni dati relativi all’utilizzo degli strumenti di pubblicazione del sito:</p>
+          <ul>
+            <li><strong># Oggetti</strong> indica quanti oggetti sono stati inseriti nel sito da parte di quell’utente intendendo per oggetti la somma di argomenti creati ex novo e commenti aggiunti ad argomenti già pubblicati;</li>
+            <li><strong># Argomenti</strong> indica quanti argomenti vale a dire contenuti (messaggi, file…) sono stati pubblicati nel sito da quell’utente</li>
+            <li><strong># Commenti</strong> indica quanti commenti sono stati aggiunti da quell’utente a contenuti già presenti nel sito;</li>
+            <li><strong># Attachment</strong> indica quanti file allegati ad un argomento sono stati pubblicati nel sito da quell’utente.</li>
+          </ul>     
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+          <h4>Statistiche download attachment</h4>
+          <p>Per ogni file inserito nel sito come allegato ad un argomento vengono forniti alcune statistiche mirate:</p>
+          <ul>
+            <li><strong># Download</strong> indica quante volte in totale quel documento è stato scaricato dagli utenti del sito;</li>
+            <li><strong># Utenti</strong> indica quanti utenti in tutto hanno scaricato quel documento;</li>
+            <li><strong>Ultimo Download</strong> offre indicazioni su data e ora dell’ultima volta in cui è stato scaricato quel documento.</li>
+          </ul>
+          <p>Clickando sui numeri presenti nella tabella è possibile avere informazioni dettagliate su quale utente ha  scaricato i diversi file e sulla cronologia dei download.</p>
+            </div>
+          </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h4>Statistiche download utenti</h4>
+              <p>Per ogni utente vengono forniti alcuni dati relativi al numero di download effettuati e di file scaricati:</p>
+              <ul>
+                <li><strong># download</strong> indica il numero totale di file scaricati*;</li>
+                <li><strong># file</strong> indica il numero totale di file unici scaricati;</li>
+                <li><strong>Ultimo Download</strong> offre indicazioni su data e ora dell’ultima volta in cui è stata effettuata un’operazione di download di un documento.</li>
+              </ul>
+              <p>Clickando sui numeri presenti nella tabella è possibile avere informazioni dettagliate sulla cronologia dei download effettuati e sul nome dei file scaricati.</p>
+              <p><small>(*) se il numero di download è superiore al numero di file significa che l’utente ha scaricato più volte gli stessi file.</small></p>
+            </div>
+          </div>
 
         </div>
       </div>
